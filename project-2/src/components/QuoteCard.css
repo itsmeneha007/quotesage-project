@@ -1,0 +1,40 @@
+.quote-card {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.quote-card.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.quote-card.dark {
+  background-color: #1e1e1e;
+  color: #eeeeee;
+}
+
+.quote-card p {
+  margin: 10px 0;
+}
+
+.quote-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #d01ce0;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.quote-card button:hover {
+  background-color: #57040b;
+}

@@ -1,0 +1,31 @@
+
+.theme-toggle-button {
+  padding: 10px 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.theme-toggle-button.light {
+  background-color: #222;
+  color: #fff;
+}
+.theme-toggle-button.light:hover {
+  background-color: #444;
+}
+.theme-toggle-button.dark {
+  background-color: #f4f4f4;
+  color: #111;
+}
+.theme-toggle-button.dark:hover {
+  background-color: #ddd;
+}
+.theme-toggle-button:active {
+  transform: scale(0.95);
+}
